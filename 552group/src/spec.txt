@@ -1,0 +1,18 @@
+The first group of shapes draws an edge
+
+A circle is a shape with (x,y) center and radius
+An ellipse is a shape with (x,y) center and radius1, radius2
+A line is a shape with (x,y) and (x2,y2)
+A Rectangle is a shape but it is already written
+A polyline has an array of points (x,y) and connects them all
+A triangle is a shape with (x,y) corner and (x2,y2), (x3,y3)
+Star (n points) with center (x,y), radius r
+Polygon (n points) with center (x,y), radius r
+
+The second group of shapes fills the shape
+A Filledcircle is a shape with (x,y) center and radius
+A FilledEllipse is a shape with (x,y) center and radius1, radius2
+A FilledRectangle is a shape but it is already written
+A FilledTriangle is a shape with (x,y) corner and (x2,y2), (x3,y3)
+Filled Star (n points) with center (x,y), radius r
+FilledPolygon (n points) with center (x,y), radius r
