@@ -1,6 +1,6 @@
 The first group of shapes draws an edge
 
-A circle is a shape with (x,y) center and radius
+A circle is a shape with (x,y) cen ter and radius
 An ellipse is a shape with (x,y) center and radius1, radius2
 A line is a shape with (x,y) and (x2,y2)
 A Rectangle is a shape but it is already written

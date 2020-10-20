@@ -13,12 +13,14 @@ public class Ellipse extends Shape{
     @Override
     public void setSecondPoint(int x, int y) {
         int dx = x - this.x, dy = y - this.y;
-        r1 = (int)Math.sqrt(x*x+y*y);
-        r2 = (int)Math.sqrt(dx*dx+dy*dy);
+//        r1 = (int)Math.sqrt(x*x+y*y);
+//        r2 = (int)Math.sqrt(dx*dx+dy*dy);
+        r1 = dx;
+        r2 = dy;
     }
 
     @Override
     public void draw(Graphics g) {
-        g.drawOval(x, y, r1, r2);
+        g.drawOval(x, y, 2*r1, 2*r2);
     }
 }
